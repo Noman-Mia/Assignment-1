@@ -12,44 +12,47 @@
             <h2>Registration Form</h2>
             <div class="row">
                 <div class="form-group">
-                    <label for="fullname">Full Name</label>
-                    <input type="text" id="fullname" name="fullname" required>
+                    <label for="fullname">Full-Name</label>
+                    <input type="text" placeholder="Enter the name :" id="fullname" name="full-name" required>
                 </div>
                 <div class="form-group">
                     <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required>
+                    <input type="text" placeholder="Enter the username :" id="username" name="username" required>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" placeholder="Enter the email :" id="email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <input type="tel" placeholder="Enter the phone number :" id="phone" name="phone" required>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
+                    <input type="password" placeholder="Enter the password :" part="" id="password" name="password" required>
                 </div>
                 <div class="form-group">
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <input type="password" placeholder="Enter the confirm-password :" id="confirm-password" name="confirm-password" required>
                 </div>
             </div>
 
-            <div class=" gender-group">
-                <h4>Gender</h4>
-                <input type="radio" id="male" name="gender" value="male" required>
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label>
-                <input type="radio" id="other" name="gender" value="other">
-                <label for="other">Other</label>
+            <div class="gender">
+               <label class="label-1 for="">Gender</label> <br>
+                <div class="gender-name">
+                     <input type="radio" id="male" name="gender" value="male" required>
+                     <label class="label-1 for="male">Male</label>
+                     <input type="radio" id="female" name="gender" value="female">
+                     <label class="label-1 for="female">Female</label>
+                     <input type="radio" id="other" name="gender" value="other">
+                     <label class="label-1 for="other">Other</label>
+                </div>
             </div>
+
             <div class="btn">
                 <button type="Cancel" class="btn-1">Cancel</button>
                 <button type="submit" class="btn-2">Submit</button>

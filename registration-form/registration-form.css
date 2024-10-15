@@ -2,7 +2,7 @@
 body {
     
     font-family: Arial, sans-serif;
-    background-color:#7a9fe0;
+    background: linear-gradient(45deg, #7528c9, #25cafc);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 48%;
+    
 }
 
 
@@ -53,46 +54,31 @@ label {
     margin-bottom: 5px;
     font-size: 18px;
     color: #333;
-    
+    font-weight: 700;
 }
-
-input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+input{
     padding: 10px;
-    font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%;
 }
 
-
-.gender-group {
-    margin-bottom: 20px;
-}   
-
-.gender-group label {
-    margin-right: 10px;
-    font-size: 14px;
+.gender{
+    margin:20px 0px 20px 0px;
 }
 
-.gender-group input[type="radio"] {
-    margin-right: 5px;
+.gender-name{
+    margin-top: 7px;
+}
+
+.label-1{
+    font-weight: 500;
 }
 
 .btn{
     display:flex;
     gap: 8px;
+    margin-top: 20px;
 
-}
-
-.btn-2{
-    background: linear-gradient(45deg, #6a11cb, #2575fc);
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    width:auto;
-    
 }
 
 .btn-1{
@@ -102,25 +88,16 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     padding: 10px;
     font-size: 14px;
     border-radius: 5px;
-    width:auto;
-    
+    width:80px;
 }
 
-/* .submit-btn {
+.btn-2{
     background: linear-gradient(45deg, #6a11cb, #2575fc);
     color: white;
     border: none;
     padding: 10px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 5px;
-    cursor: pointer;
-    width:auto;
-    transition: background 0.3s ease;
-    text-align: center;
+    width:80px;
+    
 }
-
-.submit-btn:hover {
-    background: linear-gradient(45deg, #2575fc, #6a11cb);
-} */
-
-
