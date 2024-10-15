@@ -1,22 +1,21 @@
 <?php
 
-function calculateResult($mark1, $mark2, $mark3, $mark4, $mark5) {
+function calculateResult($bangla, $english, $math, $science, $history) {
     
-    if (($mark1 < 0 || $mark1 > 100) || ($mark2 < 0 || $mark2 > 100) || 
-        ($mark3 < 0 || $mark3 > 100) || ($mark4 < 0 || $mark4 > 100) || 
-        ($mark5 < 0 || $mark5 > 100)) {
+    if (($bangla < 0 || $bangla > 100) || ($english < 0 || $english > 100) || 
+        ($math < 0 || $math > 100) || ($science < 0 || $science > 100) || 
+        ($history < 0 || $history > 100)) {
         echo "Mark range is invalid.";
         return;
     }
 
     
-    if ($mark1 < 33 || $mark2 < 33 || $mark3 < 33 || $mark4 < 33 || $mark5 < 33) {
+    if ($bangla < 33 || $english < 33 || $math < 33 || $science < 33 || $history < 33) {
         echo "You are failed";
         return;
     }
 
-
-    $totalMarks = $mark1 + $mark2 + $mark3 + $mark4 + $mark5;
+    $totalMarks = $bangla + $english + $math + $science + $history;
     $averageMarks = $totalMarks / 5;
 
     
@@ -50,12 +49,11 @@ function calculateResult($mark1, $mark2, $mark3, $mark4, $mark5) {
     echo "Grade: " . $grade;
 }
 
+$bangla = 34;
+$english = 45;
+$math = 76;
+$science = 89;
+$history = 67;
 
-$mark1 = 32;
-$mark2 = 45;
-$mark3 = 76;
-$mark4 = 89;
-$mark5 = 67;
-
-calculateResult($mark1, $mark2, $mark3, $mark4, $mark5);
+calculateResult($bangla, $english, $math, $science, $history);
 
