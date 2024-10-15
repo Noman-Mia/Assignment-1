@@ -1,7 +1,7 @@
 <?php
-// Function to calculate result
+
 function calculateResult($mark1, $mark2, $mark3, $mark4, $mark5) {
-    // Validate each subject's mark
+    
     if (($mark1 < 0 || $mark1 > 100) || ($mark2 < 0 || $mark2 > 100) || 
         ($mark3 < 0 || $mark3 > 100) || ($mark4 < 0 || $mark4 > 100) || 
         ($mark5 < 0 || $mark5 > 100)) {
@@ -9,13 +9,13 @@ function calculateResult($mark1, $mark2, $mark3, $mark4, $mark5) {
         return;
     }
 
-    // Check for failure
+    
     if ($mark1 < 33 || $mark2 < 33 || $mark3 < 33 || $mark4 < 33 || $mark5 < 33) {
         echo "You are failed";
         return;
     }
 
-    // Calculate total and average marks
+
     $totalMarks = $mark1 + $mark2 + $mark3 + $mark4 + $mark5;
     $averageMarks = $totalMarks / 5;
 
