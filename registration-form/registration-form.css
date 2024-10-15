@@ -2,7 +2,7 @@
 body {
     
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #7528c9, #25cafc);
+    background: linear-gradient(45deg, #8672f5,#7528c9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,7 @@ body {
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 
