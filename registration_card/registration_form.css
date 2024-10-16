@@ -83,7 +83,7 @@ input{
 }
 
 .btn-1{
-    background: linear-gradient(45deg, #e4363f, #f73f76);
+    background: linear-gradient(45deg, #e4363f, #ec8daa);
     color: white;
     border: none;
     padding: 10px;
@@ -93,7 +93,7 @@ input{
 }
 
 .btn-2{
-    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    background: linear-gradient(45deg, #480392, #78a6f5);
     color: white;
     border: none;
     padding: 10px;
