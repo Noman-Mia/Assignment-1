@@ -1,6 +1,4 @@
-
 body {
-    
     font-family: Arial, sans-serif;
     background: linear-gradient(45deg, #8672f5,#7528c9);
     display: flex;
@@ -10,7 +8,6 @@ body {
     margin: 0;
 }
 
-
 .form-container {
     display: flex;
     justify-content: center;
@@ -18,87 +15,87 @@ body {
     height: 100vh;
 }
 
-
 .registration-card {
     background-color: #ffffff;
     padding: 30px;
-    width: 450px;
+    width: auto;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .registration-card h2 {
     text-align: center;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: 500;
 }
-
 
 .row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
-    
 }
 
 .form-group {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
     width: 48%;
-    
+    margin-top: 10px;
 }
 
-
 label {
-    margin-bottom: 5px;
+    margin-right: 10px;
+    width: 45%;
     font-size: 18px;
     color: #333;
     font-weight: 700;
 }
-input{
-    padding: 10px;
+
+input {
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 150px;
 }
 
-.gender{
-    margin:20px 0px 20px 0px;
+.gender {
+    margin: 40px 0;
 }
 
-.gender-name{
+.gender-name {
     margin-top: 7px;
+    display: flex;
+    gap: 10px;
+    width: 200px;
 }
 
-.label-1{
+.label-1 {
     font-weight: 500;
 }
 
-.btn{
-    display:flex;
+.btn {
+    display: flex;
     gap: 8px;
     margin-top: 20px;
-
 }
 
-.btn-1{
+.btn-1 {
     background: linear-gradient(45deg, #e4363f, #ec8daa);
     color: white;
     border: none;
     padding: 10px;
     font-size: 14px;
     border-radius: 5px;
-    width:80px;
+    width: 80px;
 }
 
-.btn-2{
+.btn-2 {
     background: linear-gradient(45deg, #480392, #78a6f5);
     color: white;
     border: none;
     padding: 10px;
     font-size: 14px;
     border-radius: 5px;
-    width:80px;
-    
+    width: 80px;
 }
